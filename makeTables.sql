@@ -57,7 +57,7 @@ FOREIGN KEY (prop_id) REFERENCES Property(prop_id) ON DELETE CASCADE
 );
 
 CREATE TABLE Owns (
-prop_id Integer,
+prop_id Integer PRIMARY KEY,
 owner_id CHAR(8),
 FOREIGN KEY (prop_id) REFERENCES Property(prop_id) ON DELETE CASCADE,
 FOREIGN KEY (owner_id) REFERENCES Owner(owner_id)

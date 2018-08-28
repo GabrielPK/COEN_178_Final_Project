@@ -30,11 +30,13 @@ BEGIN
 		SELECT count(*) INTO l_leaseid FROM lease;
 		l_leaseid :=l_leaseid + 1;
 		
+		INSERT INTO lease values (in_renter_id,in_start,in_end,l_rent,l_supid,l_leaseid,in_prop_id);
+		
 		UPDATE property
 		set status='leased', monthly_rent=1.1*l_rent, avail_start_date=in_end
 		WHERE prop_id=in_prop_id;
 
-		INSERT INTO lease values (in_renter_id,in_start,in_end,l_rent,l_supid,l_leaseid,in_prop_id);
+		
 	ELSE
 		RAISE_APPLICATION_ERROR(-20000, 'Property not available!');		
 	END IF;

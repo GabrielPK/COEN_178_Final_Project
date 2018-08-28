@@ -1,0 +1,11 @@
+CREATE OR REPLACE TRIGGER del_rent
+	BEFORE DELETE ON property
+FOR EACH ROW
+
+BEGIN
+
+DELETE FROM supervises WHERE prop_id=:new.prop_id;
+
+END;
+/
+SHOW ERRORS

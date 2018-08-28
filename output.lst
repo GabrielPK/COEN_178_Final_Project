@@ -1,0 +1,167 @@
+SQL> start execs.sql
+Property ID: 0 Address: Towne Valley Drive Santa Clara 95053 Monthly Rent:      
+$1412.34 Number of Rooms: 2 Owner Name: George Washington
+                      
+Property ID: 2 Address: Desert Hill Road Santa Clara 95050 Monthly Rent: $1234.5
+Number of Rooms: 2 Owner Name: Thomas Jefferson
+                                
+Property ID: 4 Address: Oak Pine Way Santa Clara 95053 Monthly Rent: $2100      
+Number of Rooms: 3 Owner Name: James Monroe
+                                    
+Property ID: 6 Address: Parrot Street Santa Clara 95049 Monthly Rent: $3300     
+Number of Rooms: 3 Owner Name: George Washington
+                               
+Manager: John Smith                                                             
+
+PL/SQL procedure successfully completed.
+
+Property ID: 3 Address: Blue Ridge Parkway Los Angeles 90003 Monthly Rent: $9000
+Number of Rooms: 7 Owner Name: James Madison
+                                   
+Property ID: 5 Address: Dead End Path Los Angeles 90009 Monthly Rent: $1300     
+Number of Rooms: 1 Owner Name: John Q Adams
+                                    
+Property ID: 7 Address: Danny Boy Lane Los Angeles 90010 Monthly Rent: $2900    
+Number of Rooms: 3 Owner Name: John Adams
+                                      
+Manager: Jane Baker                                                             
+
+PL/SQL procedure successfully completed.
+
+Supervisor: Jane Doe
+Property ID: 0 Address: Towne Valley Drive Santa Clara     
+95053 Monthly Rent: $1412.34 Number of Rooms: 2 Owner: George Washington
+       
+Supervisor: Jack Mansfield
+Property ID: 1 Address: Liberty Road Los Angeles     
+90005 Monthly Rent: $1006.71 Number of Rooms: 4 Owner: John Adams
+              
+Supervisor: Jane Doe
+Property ID: 2 Address: Desert Hill Road Santa Clara 95050 
+Monthly Rent: $1234.5 Number of Rooms: 2 Owner: Thomas Jefferson
+               
+Supervisor: Jack Mansfield
+Property ID: 3 Address: Blue Ridge Parkway Los       
+Angeles 90003 Monthly Rent: $9000 Number of Rooms: 7 Owner: James Madison
+      
+Supervisor: Jane Doe
+Property ID: 4 Address: Oak Pine Way Santa Clara 95053     
+Monthly Rent: $2100 Number of Rooms: 3 Owner: James Monroe
+                     
+Supervisor: Jeff Donohue
+Property ID: 5 Address: Dead End Path Los Angeles 90009
+Monthly Rent: $1300 Number of Rooms: 1 Owner: John Q Adams
+                     
+Supervisor: John Deer
+Property ID: 6 Address: Parrot Street Santa Clara 95049   
+Monthly Rent: $3300 Number of Rooms: 3 Owner: George Washington
+                
+Supervisor: Jeff Donohue
+Property ID: 7 Address: Danny Boy Lane Los Angeles     
+90010 Monthly Rent: $2900 Number of Rooms: 3 Owner: John Adams
+                 
+
+PL/SQL procedure successfully completed.
+
+Property ID: 0 Address: Towne Valley Drive Santa Clara 95053 Monthly Rent:      
+$1412.34 Number of Rooms: 2 Owner: George Washington
+                           
+Property ID: 6 Address: Parrot Street Santa Clara 95049 Monthly Rent: $3300     
+Number of Rooms: 3 Owner: George Washington
+                                    
+
+PL/SQL procedure successfully completed.
+
+Property ID: 0 Address: Towne Valley Drive Santa Clara 95053 Monthly Rent:      
+$1412.34 Number of Rooms: 2 Owner Name: George Washington
+                      
+Property ID: 2 Address: Desert Hill Road Santa Clara 95050 Monthly Rent: $1234.5
+Number of Rooms: 2 Owner Name: Thomas Jefferson
+                                
+
+PL/SQL procedure successfully completed.
+
+Property ID: 3 Address: Blue Ridge Parkway Los Angeles 90003 Monthly Rent: $9000
+Number of Rooms: 7 Owner Name: James Madison
+                                   
+Property ID: 7 Address: Danny Boy Lane Los Angeles 90010 Monthly Rent: $2900    
+Number of Rooms: 3 Owner Name: John Adams
+                                      
+
+PL/SQL procedure successfully completed.
+
+Number of available houses: 7                                                   
+
+PL/SQL procedure successfully completed.
+
+
+  COUNT(*)                                                                      
+----------                                                                      
+         7                                                                      
+
+
+MONTHLY_RENT                                                                    
+------------                                                                    
+     1412.34                                                                    
+
+
+PL/SQL procedure successfully completed.
+
+
+  COUNT(*)                                                                      
+----------                                                                      
+         6                                                                      
+
+
+MONTHLY_RENT                                                                    
+------------                                                                    
+     1553.57                                                                    
+
+Renter Name: Dom Pedro I
+Renter home phone: 2390000014
+Renter work phone:       
+2390000015
+Starting Date of Lease: 25-DEC-17
+Ending Date of Lease:              
+23-JUL-18
+Deposit Amount: $1776.71
+Rent Amount: $1776.71 per month
+Supervisor:  
+John Deer
+                                                                      
+Renter Name: Dom Pedro I
+Renter home phone: 2390000014
+Renter work phone:       
+2390000015
+Starting Date of Lease: 08-JUN-18
+Ending Date of Lease:              
+08-FEB-19
+Deposit Amount: $1412.34
+Rent Amount: $1412.34 per month
+Supervisor:  
+Jane Doe
+                                                                       
+
+PL/SQL procedure successfully completed.
+
+Renter: Dom Pedro I
+                                                            
+
+PL/SQL procedure successfully completed.
+
+Average Rent among all properties in santa clara: $2047.02
+                     
+Average Rent of available properties: $2211.5
+                                  
+Average Rent of leased properties: $1553.57
+                                    
+
+PL/SQL procedure successfully completed.
+
+Property ID: 1 Address: Liberty Road Los Angeles 90005 Monthly Rent: $1006.71   
+Number of Rooms: 4 Owner: John Adams Start Date: 23-JUL-18
+                     
+
+PL/SQL procedure successfully completed.
+
+SQL> spool off;
